@@ -1,3 +1,0 @@
-<template>
-    CA marche
-</template>
