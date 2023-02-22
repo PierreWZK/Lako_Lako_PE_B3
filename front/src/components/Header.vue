@@ -1,6 +1,5 @@
 /* eslint-disable */
 <template>
-    <h1>{{ msg }}</h1>
     <div class="header">
         <ul>
             <li>
@@ -19,10 +18,7 @@
 <script>
 
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  name: 'HelloWorld'
 }
 
 </script>
