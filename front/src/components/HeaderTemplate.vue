@@ -32,7 +32,7 @@
                     Nos produits populaires
                 </div>
                 <div class="promos">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23" fill="none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23">
                         <line x1="1.69935" y1="13.4393" x2="13.0838" y2="2.05492" stroke="#007EA7" stroke-width="3" />
                         <line x1="21.5099" y1="11" x2="21.5099" y2="3" stroke="#007EA7" stroke-width="3" />
                         <line x1="12.0099" y1="2.5" x2="20.0099" y2="2.5" stroke="#007EA7" stroke-width="3" />
@@ -41,7 +41,7 @@
                         <line x1="2.06066" y1="11.6776" x2="12.2819" y2="21.8988" stroke="#007EA7" stroke-width="3" />
                         <path d="M11.0583 21.0032L21.9429 9.95202" stroke="#007EA7" stroke-width="3" />
                         <rect x="17.0099" y="5" width="2" height="2" rx="1" fill="#007EA7" />
-                        <circle cx="22.0099" cy="2" r="1" fill="#007EA7" />
+                        <circle cx="21.499" cy="2.5" r="1" fill="#007EA7" />
                     </svg>
                     En promo !
                 </div>
@@ -159,6 +159,7 @@ input {
 }
 
 #bottomSearchBar {
+    z-index: 1;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -178,6 +179,11 @@ input {
 #bottomSearchBar div {
     margin-right: 2vw;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#bottomSearchBar .produitsNav svg {
+    margin-left: 1vw;
 }
 
 #bottomSearchBar .produitsNav svg,
@@ -185,8 +191,30 @@ input {
     margin-right: 0.5vw;
 }
 
+#bottomSearchBar .promos svg,
+#bottomSearchBar .promos svg line,
+#bottomSearchBar .promos svg path,
+#bottomSearchBar .promos svg rect,
+#bottomSearchBar .promos svg circle {
+    fill: #007EA7;
+    stroke: #007EA7;
+    transition: all 0.1s ease;
+}
+
 #bottomSearchBar .promos {
     color: #007EA7;
     font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#bottomSearchBar .promos:hover,
+#bottomSearchBar .promos:hover svg,
+#bottomSearchBar .promos:hover svg line,
+#bottomSearchBar .promos:hover svg path,
+#bottomSearchBar .promos:hover svg rect,
+#bottomSearchBar .promos:hover svg circle{
+    color: #003249;
+    fill: #003249;
+    stroke: #003249;
 }
 </style>
