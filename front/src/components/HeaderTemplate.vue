@@ -26,7 +26,7 @@
                         <circle cx="1.5" cy="6.5" r="1.5" fill="black" />
                         <circle cx="1.5" cy="1.5" r="1.5" fill="black" />
                     </svg>
-                    Produits
+                    <router-link to="/produit">Produits</router-link>
                 </div>
                 <div class="produitsPopulaire">
                     Nos produits populaires
