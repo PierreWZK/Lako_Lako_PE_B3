@@ -151,12 +151,12 @@ export default {
     display: block;
     position: absolute;
 
-    border-left: 22.5vh solid transparent;
-    border-top: 22.5vh solid var(--color-grey-100, #D9D9D9);
+    border-left: 10rem solid transparent;
+    border-top: 10rem solid var(--color-grey-100, #D9D9D9);
     width: 0;
     height: 0;
 
-    left: -22vh;
+    left: -10rem;
     top: 0;
 }
 

@@ -226,8 +226,6 @@ input {
 #topSearchBar #buttonMenuNavBar div {
     cursor: pointer;
     min-width: 10rem;
-    padding: 0.5rem;
-    margin-right: 1rem;
     white-space: nowrap;
 }
 
@@ -267,7 +265,7 @@ input {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    justify-content: space-between;
+    justify-content: center;
     width: 13.81vw;
     height: 80%;
 
@@ -277,7 +275,6 @@ input {
 
     font-size: 0.8rem;
     text-align: start;
-    margin-top: -0.8rem;
 }
 
 .compte svg {
