@@ -1,5 +1,5 @@
 <template>
-    <div class="header">
+    <div class="footer">
         <div id="logo">
             <img src="../assets/logo.png" alt="logo Lako Lako" draggable="false" onclick="document.location = '/'">
         </div>
@@ -14,6 +14,35 @@
                         </path>
                     </svg>
                 </div>
+                <!-- <div id="buttonMenuNavBar">
+                    <div class="compte">Se Connecter
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41"
+                            height="41" viewBox="0 0 41 41" fill="none">
+                            <rect width="41" height="41" fill="url(#pattern0)" />
+                            <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_358_15" transform="scale(0.0025)" />
+                                </pattern>
+                                <image id="image0_358_15" width="400" height="400"
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQAQMAAAC6caSPAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAAEL0lEQVR4nO3cQW6cMBQG4EFesOQIPgpHs4+G1It41226S6RoaAxJlfB+v9ffmng8EV50AfmYMTb+jWF6uZylz+IST554cqXJuEaeJJZM6zNL/LpWkMiTRJJ5XV95wlYmrHRlMkkceRNsZTIhK7ORyBPuAgh8ZSa+Mo6vzLAR7gKYG1ZmoUxFy9RWhhvN9sokygS+Mr5hyyTKtKxMZMjQsDJcnxlrh6ZEkTYt43gyVARA4ImnG2arDEkGnuTKsGTiw9zx5FJBAk8mfso09kocG2Udk6Fjkn4KubCDcs8k8LdY3ZK5X8Le+r1lX7eEXi1oRWpi7D/KY5CxH/K16dxDk9fHIMNDk8OAakeyGIPt5GtDwvEvxIZ+iBVjohns5LsbMWJMzli7JWbydUucuPearEjuloziD+SWuxD5zc1b3kk0XLfEvOXtlsirw7yzlJPvTggYgVsRPcYqCEhGKyxvRfQYqyDgjLYhVow9EjFiDK1tdUvkOPWlyNxrR9QYqyAoGNsQI8Yeihgxhlq6W2KsQqOlrTqS7k7QLVEd0WIM3njdnMAorSJajEGiJ99diRZjkOjJB8+nRdK9iLoKjfu5RRZElBhrQ1DuVRIlxjBRk+/OBGxViZp8+Ba6W4Jr+F7w6TQI6k1qvrYhuJsbBF3lTks+TNSwrCB4kFPzFS9rVhA1LIuEWH5vScKtCTw1N/8UGD6zSuAYrxM4lBok8mThSeIJahiDoIbxOkENYxDUMAZBDVNBrKe8ERil5EdtC0dyN08kmXnieTLx77KMPHHsC9Ybod+ZqCL0CxAVJPBk7vhljp9E4klIQopGpKInzzWkxbXPjzADTxxPRn6Anap+jsWGxUqT/O4PmWJ55pHggdRSQRaeRJ7gk6IV0F++gYCWtAhoyW8gsllMEnkihUVQ1zcI6voGAbW3CKi9QeAlqRMkznKWs5yFKnCt1RtPmeSwOKhjUt6bjhtdYXjdS34XXMyhfGmw/LdXfIkZHefLXjFg523lSWIAsTCoY/KABnn9Z87w59n76/GpQPYDHqo6qWRExKOPPhzwcHZmlXiUWAF99JFEgsyIrOjbHg4ISakt38nyedugk/e96fO2j2yPRfKCyO9yj8mf7w+dbFtMQhfrx9d+FataY25GrxInScrdokie8j/PB7KUH7TsOxApPjXZSRAkqmQRZL8DV0gUD0GqSemtvxGTq04urYjv8otFkqhNWSRLFUF9rPhkrq4nJ3y9FC+x0lWZ9n8K5Jm/9q9iqX1bTZm1cSzOcui7lsexTP6g0fKXOloWh/EC0Ub+iIkSSaWwgCSoRMnKUvB5tHdW43VCe71K4OxiP05pquDQ3p2Upn1wcqXPlOD/ljFojV8z68PT0aA0y15VsdcrJ2w/ZWLvpJywy1b/hI6zlAlcm9bfxnLoW0/8j8jP0rT8BbiGn0GEt6i4AAAAAElFTkSuQmCC" />
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="panier">Panier
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41"
+                            height="41" viewBox="0 0 41 41" fill="none">
+                            <rect width="41" height="41" fill="url(#pattern0)" />
+                            <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_358_15" transform="scale(0.0025)" />
+                                </pattern>
+                                <image id="image0_358_15" width="400" height="400"
+                                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQAQMAAAC6caSPAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAAEL0lEQVR4nO3cQW6cMBQG4EFesOQIPgpHs4+G1It41226S6RoaAxJlfB+v9ffmng8EV50AfmYMTb+jWF6uZylz+IST554cqXJuEaeJJZM6zNL/LpWkMiTRJJ5XV95wlYmrHRlMkkceRNsZTIhK7ORyBPuAgh8ZSa+Mo6vzLAR7gKYG1ZmoUxFy9RWhhvN9sokygS+Mr5hyyTKtKxMZMjQsDJcnxlrh6ZEkTYt43gyVARA4ImnG2arDEkGnuTKsGTiw9zx5FJBAk8mfso09kocG2Udk6Fjkn4KubCDcs8k8LdY3ZK5X8Le+r1lX7eEXi1oRWpi7D/KY5CxH/K16dxDk9fHIMNDk8OAakeyGIPt5GtDwvEvxIZ+iBVjohns5LsbMWJMzli7JWbydUucuPearEjuloziD+SWuxD5zc1b3kk0XLfEvOXtlsirw7yzlJPvTggYgVsRPcYqCEhGKyxvRfQYqyDgjLYhVow9EjFiDK1tdUvkOPWlyNxrR9QYqyAoGNsQI8Yeihgxhlq6W2KsQqOlrTqS7k7QLVEd0WIM3njdnMAorSJajEGiJ99diRZjkOjJB8+nRdK9iLoKjfu5RRZElBhrQ1DuVRIlxjBRk+/OBGxViZp8+Ba6W4Jr+F7w6TQI6k1qvrYhuJsbBF3lTks+TNSwrCB4kFPzFS9rVhA1LIuEWH5vScKtCTw1N/8UGD6zSuAYrxM4lBok8mThSeIJahiDoIbxOkENYxDUMAZBDVNBrKe8ERil5EdtC0dyN08kmXnieTLx77KMPHHsC9Ybod+ZqCL0CxAVJPBk7vhljp9E4klIQopGpKInzzWkxbXPjzADTxxPRn6Anap+jsWGxUqT/O4PmWJ55pHggdRSQRaeRJ7gk6IV0F++gYCWtAhoyW8gsllMEnkihUVQ1zcI6voGAbW3CKi9QeAlqRMkznKWs5yFKnCt1RtPmeSwOKhjUt6bjhtdYXjdS34XXMyhfGmw/LdXfIkZHefLXjFg523lSWIAsTCoY/KABnn9Z87w59n76/GpQPYDHqo6qWRExKOPPhzwcHZmlXiUWAF99JFEgsyIrOjbHg4ISakt38nyedugk/e96fO2j2yPRfKCyO9yj8mf7w+dbFtMQhfrx9d+FataY25GrxInScrdokie8j/PB7KUH7TsOxApPjXZSRAkqmQRZL8DV0gUD0GqSemtvxGTq04urYjv8otFkqhNWSRLFUF9rPhkrq4nJ3y9FC+x0lWZ9n8K5Jm/9q9iqX1bTZm1cSzOcui7lsexTP6g0fKXOloWh/EC0Ub+iIkSSaWwgCSoRMnKUvB5tHdW43VCe71K4OxiP05pquDQ3p2Upn1wcqXPlOD/ljFojV8z68PT0aA0y15VsdcrJ2w/ZWLvpJywy1b/hI6zlAlcm9bfxnLoW0/8j8jP0rT8BbiGn0GEt6i4AAAAAElFTkSuQmCC" />
+                            </defs>
+                        </svg>
+                    </div>
+                    
+                </div> -->
                 <div id="buttonMenuNavBar">
                     <div class="compte">
                         Bonjour, Identifiez-vous ▼
@@ -88,7 +117,7 @@
 <script>
 
 export default {
-    name: 'HeaderTemplate',
+    name: 'FooterTemplate',
     props: {
         msg: String
     }
