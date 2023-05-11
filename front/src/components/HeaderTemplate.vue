@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <div id="logo">
+        <div id="logoHeader">
             <img src="../assets/logo.png" alt="logo Lako Lako" draggable="false" onclick="document.location = '/'">
         </div>
         <div id="contentNavBar">
@@ -97,6 +97,15 @@ export default {
 </script>
 
 <style>
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
 input {
     background-color: inherit;
     border: none;
@@ -121,7 +130,7 @@ input {
     background-color: white;
 }
 
-#logo {
+#logoHeader {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -131,7 +140,7 @@ input {
     height: 100%;
 }
 
-#logo img {
+#logoHeader img {
     width: 9vw;
     margin-bottom: 1vw;
     cursor: pointer;
@@ -211,14 +220,12 @@ input {
 
     border-radius: 1vw;
     width: 23rem;
-    margin-right: -4rem;
+    margin-right: -3rem;
 }
 
 #topSearchBar #buttonMenuNavBar div {
     cursor: pointer;
     min-width: 10rem;
-    padding: 0.5rem;
-    margin-right: 1rem;
     white-space: nowrap;
 }
 
@@ -258,7 +265,7 @@ input {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    justify-content: space-between;
+    justify-content: center;
     width: 13.81vw;
     height: 80%;
 
@@ -268,7 +275,6 @@ input {
 
     font-size: 0.8rem;
     text-align: start;
-    margin-top: -0.8rem;
 }
 
 .compte svg {
@@ -351,12 +357,12 @@ input {
 #bottomSearchBar #contentBottomNavBarSecond div {
     cursor: pointer;
     font-weight: 600;
-    margin-right: 1vw;
+    margin-right: 2rem;
 }
 
 .linkNav {
     cursor: pointer;
-    box-shadow: inset 0 0 0 0 #54b3d6;
+    box-shadow: inset 0 0 0 0 #007EA7;
     /* color: #54b3d6; */
     padding: 0 .25rem;
     margin: 0 -.25rem;
@@ -365,7 +371,7 @@ input {
 
 .linkNav:hover {
     color: #fff;
-    box-shadow: inset 200px 0 0 0 #54b3d6;
+    box-shadow: inset 200px 0 0 0 #007EA7;
 }
 
 /* Presentational styles */
