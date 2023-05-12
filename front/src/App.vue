@@ -1,21 +1,27 @@
 <!-- eslint-disable -->
 <template>
-  <Header msg="bienvenu a tous"/>
-  <Template/>
-  <Footer/>
+  <Header/>
+  <IndexVue/>
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <Footer msg=""/>
 </template>
 
 <script>
-import Template from './components/Template.vue'
-import Footer from './components/Footer.vue'
 import Header from './components/HeaderTemplate.vue'
+import Footer from './components/FooterTemplate.vue'
+
+import HelloWorld from './components/HelloWorld.vue'
+import IndexVue from './components/Index.vue'
 
 export default {
   name: 'App',
   components: { 
     Header,
-    Template,
-    Footer
+    Footer,
+    HelloWorld,
+    IndexVue
   }
 }
 </script>
