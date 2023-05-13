@@ -7,6 +7,7 @@
       <ProduitsPopulaire/>
     </div>
     <div v-if = "$route.path === '/login'"><LoginView/></div>
+    <div v-if = "$route.path === '/signin'"><Signin/></div>
     <Footer/>
   </routeur-view>
 </template>
@@ -19,16 +20,18 @@ import IndexVue from './components/Index.vue'
 
 // Templates des pages, etc...
 import ProduitsPopulaire from './components/ProduitsPopulaire.vue'
+import Signin from './components/Signin.vue'
 
 export default {
   name: 'App',
-  components: { 
+  components: {
     Header,
     Footer,
     IndexVue,
     ProduitsPopulaire,
-    LoginView
-  }
+    LoginView,
+    Signin
+}
 }
 </script>
 

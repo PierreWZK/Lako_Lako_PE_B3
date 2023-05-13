@@ -2,10 +2,14 @@
     <div id="global">
         <div id="loginBox">
             <div id="login">
-                <h1>Ravi de vous revoir !</h1>
+                <h1>Merci de nous faire confiance</h1>
                 <form id="form">
                     <label>
                     <h3>Identifiant</h3>
+                    </label>
+                    <input id="formInput" type="email" v-model="email">
+                    <label>
+                    <h3>Email</h3>
                     </label>
                     <input id="formInput" type="email" v-model="email">
                     <label>
@@ -13,13 +17,13 @@
                     </label>
                     <input id="formInput" type="password" v-model="password">
                     <div style="align-self: center; padding: 1em;">
-                        <button type="submit" id="bouton"><h2>Se connecter</h2></button>  
+                        <button type="submit" id="bouton"><h2>S'inscrire</h2></button>  
                     </div>
                 </form>
                 <div style="width: 80%">
                     <div style="width:100%; text-align:center; border-bottom: 3px solid lightgray; line-height:0.1em; margin:10px 0 20px;">
                         <span style="background:#A9A9A9; padding:0 10px; color: white;" value="1">
-                        ou se connecter avec
+                        ou s'inscrire avec
                         </span>
                     </div>
                 </div>
@@ -28,7 +32,7 @@
                     <img src="../assets/facebook.png" alt="facebook" width="50px">
                     <img src="../assets/twitter.png" alt="twitter" width="50px">
                 </div>
-                <span style="padding: 1em;">Vous n'avez pas encore de compte ? <router-link to="/signin">S'inscrire</router-link></span>
+                <span style="padding: 1em;">Vous avez déjà un compte ? <router-link to="/login">Se connecter</router-link></span>
             </div>
             <div id="contentImgMeuble">
                 <img src="../assets/meuble1.png" alt="produit1" draggable="false">
@@ -113,6 +117,3 @@
 }
 
 </style>
-  
-  
-  
