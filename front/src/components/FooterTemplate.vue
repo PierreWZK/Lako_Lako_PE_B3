@@ -1,3 +1,4 @@
+<!-- eslint-disable -->
 <template>
     <div class="footer">
         <div id="logoFooter">
@@ -40,7 +41,7 @@
                             <span class="linkNav">Contact</span>
                         </div>
                         <div id="socialMedia">
-                            
+
                         </div>
                     </div>
                     <div id="horaire" class="listContentFooter">
@@ -80,19 +81,10 @@
     </div>
 </template>
 
-<script>
-
-export default {
-    name: 'FooterTemplate',
-    props: {
-        msg: String
-    }
-}
-
-</script>
-
 <style>
 .footer {
+    position: relative;
+    z-index: 99;
     bottom: 0;
     display: flex;
     flex-direction: row;
@@ -102,7 +94,9 @@ export default {
     width: 100vw;
 
     background-color: white;
+    border-top: solid 2px #D9D9D9;
     color: black;
+    margin-top: 2rem;
 }
 
 #logoFooter {
@@ -116,11 +110,12 @@ export default {
 }
 
 #logoFooter img {
-    width: 13vw;
+    max-width: 24.5rem;
     margin-bottom: 1vw;
     cursor: pointer;
     margin-bottom: 2rem;
     margin-left: 2rem;
+    max-height: 10rem;
 }
 
 #contentAllfooter {
@@ -234,3 +229,11 @@ export default {
 
 /* LINK */
 </style>
+
+<script>
+
+export default {
+    name: 'FooterTemplate'
+}
+
+</script>

@@ -1,6 +1,7 @@
+<!-- eslint-disable -->
 <template>
     <div class="header">
-        <div id="logoHeader">
+        <div id="logoHeader" style="z-index: 99;">
             <img src="../assets/logo.png" alt="logo Lako Lako" draggable="false" onclick="document.location = '/'">
         </div>
         <div id="contentNavBar">
@@ -16,7 +17,7 @@
                 </div>
                 <div id="buttonMenuNavBar">
                     <div class="compte">
-                        Bonjour, Identifiez-vous ▼
+                        Bonjour, Identifiez-vous
                         <span>Se connecter</span>
                     </div>
                     <div class="panier">
@@ -85,27 +86,7 @@
     </div>
 </template>
 
-<script>
-
-export default {
-    name: 'HeaderTemplate',
-    props: {
-        msg: String
-    }
-}
-
-</script>
-
 <style>
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #F2F2F2;
-    overflow-x: hidden;
-    min-height: 100vh;
-}
-
 input {
     background-color: inherit;
     border: none;
@@ -117,13 +98,14 @@ input {
     outline: none;
 }
 
-
 .header {
+    position: relative;
+    z-index: 99;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
 
-    height: 12vh;
+    height: 6rem;
     width: 100vw;
 
     border-bottom: 2px solid #D9D9D9;
@@ -141,10 +123,10 @@ input {
 }
 
 #logoHeader img {
-    width: 9vw;
+    max-width: 10vw;
     margin-bottom: 1vw;
     cursor: pointer;
-
+    max-height: 6rem;
 }
 
 #contentNavBar {
@@ -152,7 +134,7 @@ input {
     flex-direction: column;
     align-items: flex-end;
 
-    width: 85vw;
+    width: 100vw;
     height: 100%;
 }
 
@@ -202,12 +184,12 @@ input {
     display: block;
     position: absolute;
 
-    border-left: 7.2vh solid transparent;
-    border-top: 7.2vh solid var(--color-grey-100, #D9D9D9);
+    border-left: 3.66rem solid transparent;
+    border-top: 3.66rem solid var(--color-grey-100, #D9D9D9);
     width: 0;
     height: 0;
 
-    left: -7.2vh;
+    left: -3.6rem;
     top: 0;
 }
 
@@ -327,6 +309,16 @@ input {
     margin-right: 0.5vw;
 }
 
+#bottomSearchBar #contentBottomNavBarFirst #produitsPopulaire {
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+
+#bottomSearchBar #contentBottomNavBarFirst .promos svg {
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+}
+
 #bottomSearchBar #contentBottomNavBarFirst .promos svg,
 #bottomSearchBar #contentBottomNavBarFirst .promos svg line,
 #bottomSearchBar #contentBottomNavBarFirst .promos svg path,
@@ -341,6 +333,9 @@ input {
     color: #007EA7;
     font-weight: bold;
     transition: all 0.3s ease;
+
+    display: flex;
+    align-items: center;
 }
 
 #bottomSearchBar #contentBottomNavBarFirst .promos:hover,
@@ -380,3 +375,11 @@ input {
     text-decoration: none;
 }
 </style>
+
+<script>
+
+export default {
+    name: 'HeaderTemplate'
+}
+
+</script>
