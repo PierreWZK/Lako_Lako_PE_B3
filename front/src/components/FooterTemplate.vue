@@ -1,3 +1,4 @@
+<!-- eslint-disable -->
 <template>
     <div class="footer">
         <div id="logoFooter">
@@ -95,6 +96,7 @@
     background-color: white;
     border-top: solid 2px #D9D9D9;
     color: black;
+    margin-top: 2rem;
 }
 
 #logoFooter {

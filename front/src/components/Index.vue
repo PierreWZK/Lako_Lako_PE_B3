@@ -16,10 +16,10 @@
   align-items: center;
 
   width: 100vw;
-  height: 100vh;
 
   font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 3rem;
 }
 
 #logoVuePrincipale img {

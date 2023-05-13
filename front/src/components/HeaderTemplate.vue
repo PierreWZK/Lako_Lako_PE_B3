@@ -1,3 +1,4 @@
+<!-- eslint-disable -->
 <template>
     <div class="header">
         <div id="logoHeader" style="z-index: 99;">
@@ -16,7 +17,7 @@
                 </div>
                 <div id="buttonMenuNavBar">
                     <div class="compte">
-                        Bonjour, Identifiez-vous ▼
+                        Bonjour, Identifiez-vous
                         <span>Se connecter</span>
                     </div>
                     <div class="panier">
