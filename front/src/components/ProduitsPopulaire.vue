@@ -55,36 +55,66 @@
 
         <div id="contentProduitsPopulaire">
             <div class="produitPopulaire">
-                <div id="contentTitleProduit">
+                <div class="contentTitleProduit">
                     <span>Ensemble de table et chaise en bois design, ...</span>
                 </div>
-                <div id="contentImgProduit">
-                    <img src="../assets/produit1.png" alt="produit1" draggable="false">
-                </div>
-            </div>
-            <div class="produitPopulaire">
-                <div id="contentTitleProduit">
-                    <span>Canapé en velours, Bleu foncé, 3 places, ....</span>
-                </div>
-                <div id="contentImgProduit">
+                <div class="contentImgProduit">
                     <img src="../assets/produit2.png" alt="produit1" draggable="false">
                 </div>
-                <div id="descriptionProduitPopulaire">
+                <div class="descriptionProduitPopulaire">
                     <span>
-                        Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae id voluptas voluptatum...
+                        Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas
+                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit
+                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae
+                        id voluptas voluptatum...
                         <br> <span>En savoir plus ...</span>
                     </span>
                 </div>
-                <div id="prixProduitPopulaire">
+                <div class="prixProduitPopulaire">
+                    <span>900€</span>
+                </div>
+                <div class="starsProduitPopulaire">
+                    <span class="etoiles">
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileNonRempli">★</span>
+                    </span>
+                    <span class="noteProduitPopulaire">
+                        <span class="avisNoteProduitPopulaire">4.8 <span class="avisSlashCinqProduitPopulaire">/5</span> </span>
+                    </span>
+                </div>
+            </div>
+            <div class="produitPopulaire">
+                <div class="contentTitleProduit">
+                    <span>Canapé en velours, Bleu foncé, 3 places, ....</span>
+                </div>
+                <div class="contentImgProduit">
+                    <img src="../assets/produit1.png" alt="produit1" draggable="false">
+                </div>
+                <div class="descriptionProduitPopulaire">
+                    <span>
+                        Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas
+                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit
+                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae
+                        id voluptas voluptatum...
+                        <br> <span>En savoir plus ...</span>
+                    </span>
+                </div>
+                <div class="prixProduitPopulaire">
                     <span>1200€</span>
                 </div>
-                <div id="starsProduitPopulaire">
-                    <span>
-                        <span>★</span>
-                        <span>★</span>
-                        <span>★</span>
-                        <span>★</span>
-                        <span>★</span>
+                <div class="starsProduitPopulaire">
+                    <span class="etoiles">
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileNonRempli">★</span>
+                    </span>
+                    <span class="noteProduitPopulaire">
+                        <span class="avisNoteProduitPopulaire">4.7 <span class="avisSlashCinqProduitPopulaire">/5</span> </span>
                     </span>
                 </div>
             </div>
@@ -130,6 +160,7 @@
 .produitPopulaire {
     width: 40%;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .produitPopulaire div img,
@@ -137,19 +168,87 @@
     cursor: pointer;
 }
 
-#contentTitleProduit {
+.contentTitleProduit {
     width: 100%;
     font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
 }
 
-#contentImgProduit img {
+.contentImgProduit img {
     max-width: 100%;
     max-height: 17rem;
     object-fit: contain;
 }
 
+.descriptionProduitPopulaire {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.descriptionProduitPopulaire span {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #666;
+}
+
+.descriptionProduitPopulaire span span {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #666;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.prixProduitPopulaire {
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.starsProduitPopulaire {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.starsProduitPopulaire span.etoileNonRempli {
+    color: #D9D9D9;
+}
+
+.starsProduitPopulaire span.etoileRempli {
+    color: #007EA7;
+}
+
+.starsProduitPopulaire span.etoiles span.etoileAvis.active {
+    color: #005a84;
+}
+
+.avisNoteProduitPopulaire {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #666;
+    cursor: default !important;
+}
+
+.noteProduitPopulaire {
+    margin-left: 1rem;
+    cursor: default !important;
+    padding-bottom: 0.25rem;
+}
+
+.avisSlashCinqProduitPopulaire {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+    cursor: default !important;
+}
 
 /* Filtres */
 #filtresProduitsPopulaire {
@@ -241,27 +340,58 @@ window.onload = function () {
     const minPriceSpan = document.getElementById("min-price");
     const maxPriceSpan = document.getElementById("max-price");
     const priceRangeInput = document.getElementById("price-range");
-    
+
     priceRangeInput.addEventListener("input", updatePrice);
-    
+
     function updatePrice() {
         const minPrice = priceRangeInput.value;
         const maxPrice = priceRangeInput.max - minPrice;
-        
+
         minPriceSpan.textContent = minPrice;
         maxPriceSpan.textContent = maxPrice;
     }
     //GAMME DE PRIX
-    
+
     //COULEURS
     const colorOptions = document.querySelectorAll('.color-option');
-    
+
     colorOptions.forEach(colorOption => {
         colorOption.addEventListener('click', () => {
             colorOption.classList.toggle('selected');
         });
     });
     //COULEURS
+
+    //STARS
+    var ensemblesEtoiles = document.getElementsByClassName('starsProduitPopulaire');
+
+    for (var j = 0; j < ensemblesEtoiles.length; j++) {
+        var etoiles = ensemblesEtoiles[j].getElementsByClassName('etoileAvis');
+
+        for (var i = 0; i < etoiles.length; i++) {
+            etoiles[i].addEventListener('mouseover', createMouseoverHandler(i, etoiles));
+            etoiles[i].addEventListener('mouseout', decolorerEtoiles.bind(null, etoiles));
+        }
+    }
+
+    function createMouseoverHandler(index, etoiles) {
+        return function () {
+            colorerEtoiles(index, etoiles);
+        };
+    }
+
+    function colorerEtoiles(n, etoiles) {
+        for (var i = 0; i <= n; i++) {
+            etoiles[i].classList.add('active');
+        }
+    }
+
+    function decolorerEtoiles(etoiles) {
+        for (var i = 0; i < etoiles.length; i++) {
+            etoiles[i].classList.remove('active');
+        }
+    }
+    //STARS
 }
 
 </script>
