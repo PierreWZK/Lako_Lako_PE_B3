@@ -18,7 +18,7 @@
                 <div id="buttonMenuNavBar">
                     <div class="compte">
                         Bonjour, Identifiez-vous
-                        <span>Se connecter</span>
+                        <router-link to="/login"><span>Se connecter</span></router-link>
                     </div>
                     <div class="panier">
                         <div>
