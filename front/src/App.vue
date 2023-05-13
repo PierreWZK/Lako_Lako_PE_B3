@@ -10,7 +10,6 @@
 import Header from './components/HeaderTemplate.vue'
 import Footer from './components/FooterTemplate.vue'
 
-import HelloWorld from './components/HelloWorld.vue'
 import IndexVue from './components/Index.vue'
 
 // Templates des pages, etc...
@@ -21,7 +20,6 @@ export default {
   components: { 
     Header,
     Footer,
-    HelloWorld,
     IndexVue,
     ProduitsPopulaire
   }

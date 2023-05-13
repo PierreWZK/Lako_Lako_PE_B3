@@ -70,8 +70,22 @@
                     <img src="../assets/produit2.png" alt="produit1" draggable="false">
                 </div>
                 <div id="descriptionProduitPopulaire">
-                    <span>Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae id voluptas voluptatum...
-                </span>
+                    <span>
+                        Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae id voluptas voluptatum...
+                        <br> <span>En savoir plus ...</span>
+                    </span>
+                </div>
+                <div id="prixProduitPopulaire">
+                    <span>1200€</span>
+                </div>
+                <div id="starsProduitPopulaire">
+                    <span>
+                        <span>★</span>
+                        <span>★</span>
+                        <span>★</span>
+                        <span>★</span>
+                        <span>★</span>
+                    </span>
                 </div>
             </div>
         </div>
@@ -115,7 +129,6 @@
 
 .produitPopulaire {
     width: 40%;
-    /* height: 20rem; */
     margin-top: 2rem;
 }
 
