@@ -1,28 +1,38 @@
 <!-- eslint-disable -->
 <template>
-  <Header/>
-  <IndexVue/>
-  <ProduitsPopulaire/>
-  <Footer/>
+  <routeur-view>
+    <Header/>
+    <div v-if = "$route.path === '/'">
+      <IndexVue/>
+      <ProduitsPopulaire/>
+    </div>
+    <div v-if = "$route.path === '/login'"><LoginView/></div>
+    <div v-if = "$route.path === '/signin'"><Signin/></div>
+    <div v-if = "$route.path === '/produitsPopulaire'"><ProduitsPopulaire/></div>
+    <Footer/>
+  </routeur-view>
 </template>
 
 <script>
 import Header from './components/HeaderTemplate.vue'
 import Footer from './components/FooterTemplate.vue'
-
+import LoginView from './views/LoginView.vue'
 import IndexVue from './components/Index.vue'
 
 // Templates des pages, etc...
 import ProduitsPopulaire from './components/ProduitsPopulaire.vue'
+import Signin from './components/Signin.vue'
 
 export default {
   name: 'App',
-  components: { 
+  components: {
     Header,
     Footer,
     IndexVue,
-    ProduitsPopulaire
-  }
+    ProduitsPopulaire,
+    LoginView,
+    Signin
+}
 }
 </script>
 

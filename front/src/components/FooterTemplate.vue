@@ -2,7 +2,7 @@
 <template>
     <div class="footer">
         <div id="logoFooter">
-            <img src="../assets/logo.png" alt="logo Lako Lako" draggable="false" onclick="document.location = '/'">
+            <img src="../assets/logo.png" alt="logo Lako Lako" draggable="false">
         </div>
         <div id="contentAllfooter">
             <div id="backgroundFooter">
@@ -112,7 +112,6 @@
 #logoFooter img {
     max-width: 24.5rem;
     margin-bottom: 1vw;
-    cursor: pointer;
     margin-bottom: 2rem;
     margin-left: 2rem;
     max-height: 10rem;
