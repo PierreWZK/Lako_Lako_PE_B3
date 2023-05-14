@@ -8,3 +8,8 @@ body {
     
     font-family: 'Inder', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: #000;
+}

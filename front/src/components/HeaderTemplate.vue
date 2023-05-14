@@ -2,7 +2,9 @@
 <template>
     <div class="header">
         <div id="logoHeader" style="z-index: 99;">
-            <img src="../assets/logo.png" alt="logo Lako Lako" draggable="false" onclick="document.location = '/'">
+            <router-link to="/">
+                <img src="../assets/logo.png" alt="logo Lako Lako" draggable="false">
+            </router-link>
         </div>
         <div id="contentNavBar">
             <div id="topSearchBar">
@@ -17,8 +19,10 @@
                 </div>
                 <div id="buttonMenuNavBar">
                     <div class="compte">
-                        Bonjour, Identifiez-vous
-                        <router-link to="/login"><span>Se connecter</span></router-link>
+                        <router-link to="/login">
+                            <span>Bonjour, <span id="username">Identifiez-vous</span></span>
+                            <span id="seConnecter">Se connecter</span>
+                        </router-link>
                     </div>
                     <div class="panier">
                         <div>
@@ -44,20 +48,24 @@
             </div>
             <div id="bottomSearchBar">
                 <div id="contentBottomNavBarFirst">
-                    <div class="produitsNav">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="13" viewBox="0 0 21 13" fill="none">
-                            <rect x="6" width="15" height="3" fill="black" />
-                            <rect x="6" y="5" width="15" height="3" fill="black" />
-                            <rect x="6" y="10" width="15" height="3" fill="black" />
-                            <circle cx="1.5" cy="11.5" r="1.5" fill="black" />
-                            <circle cx="1.5" cy="6.5" r="1.5" fill="black" />
-                            <circle cx="1.5" cy="1.5" r="1.5" fill="black" />
-                        </svg>
-                        Produits
-                    </div>
-                    <div class="produitsPopulaire linkNav">
-                        Nos produits populaires
-                    </div>
+                    <router-link to="/produitsPopulaire">
+                        <div class="produitsNav">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="13" viewBox="0 0 21 13" fill="none">
+                                <rect x="6" width="15" height="3" fill="black" />
+                                <rect x="6" y="5" width="15" height="3" fill="black" />
+                                <rect x="6" y="10" width="15" height="3" fill="black" />
+                                <circle cx="1.5" cy="11.5" r="1.5" fill="black" />
+                                <circle cx="1.5" cy="6.5" r="1.5" fill="black" />
+                                <circle cx="1.5" cy="1.5" r="1.5" fill="black" />
+                            </svg>
+                            Produits
+                        </div>
+                    </router-link>
+                    <router-link to="/produitsPopulaire">
+                        <div class="produitsPopulaire linkNav">
+                            Nos produits populaires
+                        </div>
+                    </router-link>
                     <div class="promos linkNav">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23">
                             <line x1="1.69935" y1="13.4393" x2="13.0838" y2="2.05492" stroke="#007EA7" stroke-width="3" />
@@ -243,7 +251,7 @@ input {
     max-width: 20%;
 }
 
-.compte {
+.compte a {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -259,11 +267,7 @@ input {
     text-align: start;
 }
 
-.compte svg {
-    max-height: 70%;
-}
-
-.compte span {
+.compte a span#seConnecter {
     font-weight: bold;
     font-size: 0.9rem;
 }
@@ -380,6 +384,19 @@ input {
 
 export default {
     name: 'HeaderTemplate'
+}
+
+window.onload = function () {
+    // récupération des données de l'utilisateur (via les cookie)
+    var username = getCookie("username");
+
+    // si l'utilisateur est connecté on affiche son nom et prénom dans le header (la class .username)
+    if (username != "") {
+        document.getElementById("username").innerHTML = username;
+
+        // On mets a jour le #seConnecter, et on mets le texte de #seConnecter a "Se déconnecter"
+        document.getElementById("seConnecter").innerHTML = "Se déconnecter";
+    }
 }
 
 </script>

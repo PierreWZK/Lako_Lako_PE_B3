@@ -118,6 +118,134 @@
                     </span>
                 </div>
             </div>
+            <div class="produitPopulaire">
+                <div class="contentTitleProduit">
+                    <span>Canapé en velours, Bleu foncé, 3 places, ....</span>
+                </div>
+                <div class="contentImgProduit">
+                    <img src="../assets/produit1.png" alt="produit1" draggable="false">
+                </div>
+                <div class="descriptionProduitPopulaire">
+                    <span>
+                        Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas
+                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit
+                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae
+                        id voluptas voluptatum...
+                        <br> <span>En savoir plus ...</span>
+                    </span>
+                </div>
+                <div class="prixProduitPopulaire">
+                    <span>1200€</span>
+                </div>
+                <div class="starsProduitPopulaire">
+                    <span class="etoiles">
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileNonRempli">★</span>
+                    </span>
+                    <span class="noteProduitPopulaire">
+                        <span class="avisNoteProduitPopulaire">4.7 <span class="avisSlashCinqProduitPopulaire">/5</span> </span>
+                    </span>
+                </div>
+            </div>
+            <div class="produitPopulaire">
+                <div class="contentTitleProduit">
+                    <span>Ensemble de table et chaise en bois design, ...</span>
+                </div>
+                <div class="contentImgProduit">
+                    <img src="../assets/produit2.png" alt="produit1" draggable="false">
+                </div>
+                <div class="descriptionProduitPopulaire">
+                    <span>
+                        Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas
+                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit
+                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae
+                        id voluptas voluptatum...
+                        <br> <span>En savoir plus ...</span>
+                    </span>
+                </div>
+                <div class="prixProduitPopulaire">
+                    <span>900€</span>
+                </div>
+                <div class="starsProduitPopulaire">
+                    <span class="etoiles">
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileNonRempli">★</span>
+                    </span>
+                    <span class="noteProduitPopulaire">
+                        <span class="avisNoteProduitPopulaire">4.8 <span class="avisSlashCinqProduitPopulaire">/5</span> </span>
+                    </span>
+                </div>
+            </div>
+            <div class="produitPopulaire">
+                <div class="contentTitleProduit">
+                    <span>Ensemble de table et chaise en bois design, ...</span>
+                </div>
+                <div class="contentImgProduit">
+                    <img src="../assets/produit2.png" alt="produit1" draggable="false">
+                </div>
+                <div class="descriptionProduitPopulaire">
+                    <span>
+                        Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas
+                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit
+                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae
+                        id voluptas voluptatum...
+                        <br> <span>En savoir plus ...</span>
+                    </span>
+                </div>
+                <div class="prixProduitPopulaire">
+                    <span>900€</span>
+                </div>
+                <div class="starsProduitPopulaire">
+                    <span class="etoiles">
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileNonRempli">★</span>
+                    </span>
+                    <span class="noteProduitPopulaire">
+                        <span class="avisNoteProduitPopulaire">4.8 <span class="avisSlashCinqProduitPopulaire">/5</span> </span>
+                    </span>
+                </div>
+            </div>
+            <div class="produitPopulaire">
+                <div class="contentTitleProduit">
+                    <span>Canapé en velours, Bleu foncé, 3 places, ....</span>
+                </div>
+                <div class="contentImgProduit">
+                    <img src="../assets/produit1.png" alt="produit1" draggable="false">
+                </div>
+                <div class="descriptionProduitPopulaire">
+                    <span>
+                        Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas
+                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit
+                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae
+                        id voluptas voluptatum...
+                        <br> <span>En savoir plus ...</span>
+                    </span>
+                </div>
+                <div class="prixProduitPopulaire">
+                    <span>1200€</span>
+                </div>
+                <div class="starsProduitPopulaire">
+                    <span class="etoiles">
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileRempli">★</span>
+                        <span class="etoileAvis etoileNonRempli">★</span>
+                    </span>
+                    <span class="noteProduitPopulaire">
+                        <span class="avisNoteProduitPopulaire">4.7 <span class="avisSlashCinqProduitPopulaire">/5</span> </span>
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
 </template>

@@ -8,6 +8,7 @@
     </div>
     <div v-if = "$route.path === '/login'"><LoginView/></div>
     <div v-if = "$route.path === '/signin'"><Signin/></div>
+    <div v-if = "$route.path === '/produitsPopulaire'"><ProduitsPopulaire/></div>
     <Footer/>
   </routeur-view>
 </template>
