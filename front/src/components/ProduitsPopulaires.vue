@@ -64,14 +64,18 @@
                 <div class="descriptionProduitPopulaire">
                     <span>
                         Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas
-                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit
-                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae
+                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure
+                        suscipit
+                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur
+                        recusandae
                         id voluptas voluptatum...
                         <br> <span>En savoir plus ...</span>
                     </span>
                 </div>
                 <div class="prixProduitPopulaire">
-                    <span>900€</span>
+                    <span>
+                        900€
+                    </span>
                 </div>
                 <div class="starsProduitPopulaire">
                     <span class="etoiles">
@@ -82,7 +86,8 @@
                         <span class="etoileAvis etoileNonRempli">★</span>
                     </span>
                     <span class="noteProduitPopulaire">
-                        <span class="avisNoteProduitPopulaire">4.8 <span class="avisSlashCinqProduitPopulaire">/5</span> </span>
+                        <span class="avisNoteProduitPopulaire">4.8 <span class="avisSlashCinqProduitPopulaire">/5</span>
+                        </span>
                     </span>
                 </div>
             </div>
@@ -96,14 +101,18 @@
                 <div class="descriptionProduitPopulaire">
                     <span>
                         Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas
-                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit
-                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae
+                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure
+                        suscipit
+                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur
+                        recusandae
                         id voluptas voluptatum...
                         <br> <span>En savoir plus ...</span>
                     </span>
                 </div>
                 <div class="prixProduitPopulaire">
-                    <span>1200€</span>
+                    <span>
+                        1200€
+                    </span>
                 </div>
                 <div class="starsProduitPopulaire">
                     <span class="etoiles">
@@ -114,7 +123,8 @@
                         <span class="etoileAvis etoileNonRempli">★</span>
                     </span>
                     <span class="noteProduitPopulaire">
-                        <span class="avisNoteProduitPopulaire">4.7 <span class="avisSlashCinqProduitPopulaire">/5</span> </span>
+                        <span class="avisNoteProduitPopulaire">4.7 <span class="avisSlashCinqProduitPopulaire">/5</span>
+                        </span>
                     </span>
                 </div>
             </div>
@@ -128,14 +138,18 @@
                 <div class="descriptionProduitPopulaire">
                     <span>
                         Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas
-                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit
-                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae
+                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure
+                        suscipit
+                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur
+                        recusandae
                         id voluptas voluptatum...
                         <br> <span>En savoir plus ...</span>
                     </span>
                 </div>
                 <div class="prixProduitPopulaire">
-                    <span>1200€</span>
+                    <span>
+                        1200€
+                    </span>
                 </div>
                 <div class="starsProduitPopulaire">
                     <span class="etoiles">
@@ -146,7 +160,8 @@
                         <span class="etoileAvis etoileNonRempli">★</span>
                     </span>
                     <span class="noteProduitPopulaire">
-                        <span class="avisNoteProduitPopulaire">4.7 <span class="avisSlashCinqProduitPopulaire">/5</span> </span>
+                        <span class="avisNoteProduitPopulaire">4.7 <span class="avisSlashCinqProduitPopulaire">/5</span>
+                        </span>
                     </span>
                 </div>
             </div>
@@ -160,14 +175,18 @@
                 <div class="descriptionProduitPopulaire">
                     <span>
                         Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas
-                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit
-                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae
+                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure
+                        suscipit
+                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur
+                        recusandae
                         id voluptas voluptatum...
                         <br> <span>En savoir plus ...</span>
                     </span>
                 </div>
                 <div class="prixProduitPopulaire">
-                    <span>900€</span>
+                    <span>
+                        900€
+                    </span>
                 </div>
                 <div class="starsProduitPopulaire">
                     <span class="etoiles">
@@ -178,7 +197,8 @@
                         <span class="etoileAvis etoileNonRempli">★</span>
                     </span>
                     <span class="noteProduitPopulaire">
-                        <span class="avisNoteProduitPopulaire">4.8 <span class="avisSlashCinqProduitPopulaire">/5</span> </span>
+                        <span class="avisNoteProduitPopulaire">4.8 <span class="avisSlashCinqProduitPopulaire">/5</span>
+                        </span>
                     </span>
                 </div>
             </div>
@@ -192,14 +212,18 @@
                 <div class="descriptionProduitPopulaire">
                     <span>
                         Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas
-                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit
-                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae
+                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure
+                        suscipit
+                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur
+                        recusandae
                         id voluptas voluptatum...
                         <br> <span>En savoir plus ...</span>
                     </span>
                 </div>
                 <div class="prixProduitPopulaire">
-                    <span>900€</span>
+                    <span>
+                        900€
+                    </span>
                 </div>
                 <div class="starsProduitPopulaire">
                     <span class="etoiles">
@@ -210,7 +234,8 @@
                         <span class="etoileAvis etoileNonRempli">★</span>
                     </span>
                     <span class="noteProduitPopulaire">
-                        <span class="avisNoteProduitPopulaire">4.8 <span class="avisSlashCinqProduitPopulaire">/5</span> </span>
+                        <span class="avisNoteProduitPopulaire">4.8 <span class="avisSlashCinqProduitPopulaire">/5</span>
+                        </span>
                     </span>
                 </div>
             </div>
@@ -224,14 +249,18 @@
                 <div class="descriptionProduitPopulaire">
                     <span>
                         Lorem ipsum dolor sit amet. Hic labore sequi ut molestiae natus et voluptas illum ea voluptas
-                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure suscipit
-                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur recusandae
+                        voluptatem nam numquam quasi eum deleniti tenetur. Sed porro quis in delectus fuga aut iure
+                        suscipit
+                        est numquam vitae? Et praesentium magni et galisum obcaecati est enim nesciunt a pariatur
+                        recusandae
                         id voluptas voluptatum...
                         <br> <span>En savoir plus ...</span>
                     </span>
                 </div>
                 <div class="prixProduitPopulaire">
-                    <span>1200€</span>
+                    <span>
+                        1200€
+                    </span>
                 </div>
                 <div class="starsProduitPopulaire">
                     <span class="etoiles">
@@ -242,7 +271,8 @@
                         <span class="etoileAvis etoileNonRempli">★</span>
                     </span>
                     <span class="noteProduitPopulaire">
-                        <span class="avisNoteProduitPopulaire">4.7 <span class="avisSlashCinqProduitPopulaire">/5</span> </span>
+                        <span class="avisNoteProduitPopulaire">4.7 <span class="avisSlashCinqProduitPopulaire">/5</span>
+                        </span>
                     </span>
                 </div>
             </div>
@@ -304,9 +334,9 @@
 }
 
 .contentImgProduit img {
-    max-width: 100%;
-    max-height: 17rem;
-    object-fit: contain;
+  width: 100%;
+  height: 17rem;
+  object-fit: cover;
 }
 
 .descriptionProduitPopulaire {
@@ -447,6 +477,20 @@ h2 {
     background-color: brown;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-height: 100vh;
+
+    font-family: 'Inder', sans-serif;
+}
+
 /* Fin Filtres */
 </style>
 
@@ -458,7 +502,7 @@ export default {
 
 window.onload = function () {
     // Si l'url contient produitsPopulaire, on display flex l'id "filtresProduitsPopulaire"
-    if (window.location.href.includes("produitsPopulaire")) {
+    if (window.location.href.includes("produitsPopulaires")) {
         document.getElementById("filtresProduitsPopulaire").style.display = "flex";
     } else {
         document.getElementById("filtresProduitsPopulaire").style.display = "none";

@@ -13,7 +13,7 @@
                     </label>
                     <input id="formInput" type="password" v-model="password">
                     <div style="align-self: center; padding: 1em;">
-                        <button type="submit" id="bouton">
+                        <button type="submit" id="bouton" onclick="document.location.href = '/'">
                             <h2>Se connecter</h2>
                         </button>
                     </div>
