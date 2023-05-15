@@ -48,7 +48,7 @@
             </div>
             <div id="bottomSearchBar">
                 <div id="contentBottomNavBarFirst">
-                    <router-link to="/produitsPopulaire">
+                    <router-link to="/produits">
                         <div class="produitsNav">
                             <svg xmlns="http://www.w3.org/2000/svg" width="21" height="13" viewBox="0 0 21 13" fill="none">
                                 <rect x="6" width="15" height="3" fill="black" />
@@ -61,7 +61,7 @@
                             Produits
                         </div>
                     </router-link>
-                    <router-link to="/produitsPopulaire">
+                    <router-link to="/produitsPopulaires">
                         <div class="produitsPopulaire linkNav">
                             Nos produits populaires
                         </div>

@@ -4,11 +4,12 @@
     <Header/>
     <div v-if = "$route.path === '/'">
       <IndexVue/>
-      <ProduitsPopulaire/>
+      <ProduitsPopulaires/>
     </div>
     <div v-if = "$route.path === '/login'"><LoginView/></div>
     <div v-if = "$route.path === '/signin'"><Signin/></div>
-    <div v-if = "$route.path === '/produitsPopulaire'"><ProduitsPopulaire/></div>
+    <div v-if = "$route.path === '/produitsPopulaires'"><ProduitsPopulaires/></div>
+    <div v-if = "$route.path === '/produits'"><Produits/></div>
     <Footer/>
   </routeur-view>
 </template>
@@ -20,8 +21,11 @@ import LoginView from './views/LoginView.vue'
 import IndexVue from './components/Index.vue'
 
 // Templates des pages, etc...
-import ProduitsPopulaire from './components/ProduitsPopulaire.vue'
+import ProduitsPopulaires from './components/ProduitsPopulaires.vue'
+import Produits from './components/Produits.vue'
 import Signin from './components/Signin.vue'
+
+//Produits
 
 export default {
   name: 'App',
@@ -29,8 +33,9 @@ export default {
     Header,
     Footer,
     IndexVue,
-    ProduitsPopulaire,
+    ProduitsPopulaires,
     LoginView,
+    Produits,
     Signin
 }
 }

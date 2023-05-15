@@ -1,11 +1,11 @@
 <template>
-    <h1>OUI</h1>
+    <h1>NON</h1>
 </template>
 
 <script>
 
 export default {
-  name: 'Produit'
+  name: 'Produit2'
 }
 
 </script>
